@@ -1,6 +1,6 @@
 cask "claude-command-bar" do
-  version "0.1.1"
-  sha256 "33fc613730907847da4d63f58c2bf481803416d523d9f97d41854178395c24a9"
+  version "0.1.2"
+  sha256 "0381a1fefd372cb1567e73bb99c34d274f5a50d212caec471984a5d6c5321ef4"
 
   url "https://github.com/DoAutumn/claude-command-bar/releases/download/v#{version}/Claude-Command-Bar.app.zip"
   name "Claude Command Bar"
