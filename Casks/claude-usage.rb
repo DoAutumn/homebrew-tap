@@ -1,6 +1,6 @@
 cask "claude-usage" do
   version "0.3.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000"
+  sha256 "480cf9c76a4e3ff56d4e042f25762ab82f6d812fab06ec0b50b46d7b18897197"
 
   url "https://github.com/DoAutumn/claude-desktop-usage/releases/download/v#{version}/Claude-Usage.app.zip"
   name "Claude Usage"
