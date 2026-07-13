@@ -12,7 +12,7 @@ cask "claude-command-bar" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Claude Command Bar.app"
 
