@@ -1,6 +1,6 @@
 cask "autoclaude" do
-  version "0.1.0"
-  sha256 "c9990a9ff0db00ed81f9bbf234aafbe0eaf75e261e184f5a5c8d7d55eafd012f"
+  version "0.1.1"
+  sha256 "a8cae2b4cea661cf219a2403773c74a4d48f059044fe75f2247616b7844de637"
 
   url "https://github.com/DoAutumn/AutoClaude/releases/download/v#{version}/AutoClaude.app.zip"
   name "AutoClaude"
