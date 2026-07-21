@@ -1,6 +1,6 @@
 cask "stock-watcher" do
-  version "0.1.1"
-  sha256 "e6376708d5df6042b8c1005fcab7dd4d1fa15af82ebc8df7d579972641f2b77b"
+  version "0.1.2"
+  sha256 "ff58c5898b4cfb756baec411e3cf6ccae6d996276ccea9f4fbd106d8c8f7d508"
 
   url "https://github.com/DoAutumn/stock-watcher/releases/download/v#{version}/StockWatcher.app.zip"
   name "StockWatcher"
