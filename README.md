@@ -9,6 +9,7 @@ Personal Homebrew tap.
 | [`claude-command-bar`](Casks/claude-command-bar.rb) | Menu-bar composer that feeds text, paths and screenshots to Claude Code |
 | [`autoclaude`](Casks/autoclaude.rb) | Menu-bar scheduler that sends a daily message to Claude Code in Terminal |
 | [`stock-watcher`](Casks/stock-watcher.rb) | Menu-bar always-on-top watchlist widget for A-share stock quotes |
+| [`claude-session`](Casks/claude-session.rb) | Native macOS companion for Claude Code and Cursor sessions |
 
 ## Usage
 
