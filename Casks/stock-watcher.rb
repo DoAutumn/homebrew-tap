@@ -1,10 +1,10 @@
 cask "stock-watcher" do
-  version "0.1.2"
-  sha256 "ff58c5898b4cfb756baec411e3cf6ccae6d996276ccea9f4fbd106d8c8f7d508"
+  version "0.1.3"
+  sha256 "14bcb6ed98a88ac9690fb35e2b90267c36aeb91cc507f7a6aa427d6e05477328"
 
   url "https://github.com/DoAutumn/stock-watcher/releases/download/v#{version}/StockWatcher.app.zip"
   name "StockWatcher"
-  desc "菜单栏常驻的自选股行情浮窗：全局快捷键呼出/隐藏、边缘贴靠自动隐藏、K线图"
+  desc "菜单栏 A 股自选行情：动态涨跌显示、列表浮层、详情 K 线"
   homepage "https://github.com/DoAutumn/stock-watcher"
 
   livecheck do
