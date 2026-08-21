@@ -1,6 +1,6 @@
 cask "doautumn-calendar" do
-  version "1.0.0"
-  sha256 "7b910b5fd03a9377afbda05ebe272ff266faf78bc3e3464e54802cf69dea4a03"
+  version "1.0.1"
+  sha256 "b9072111d03547605eae6ddc976f62178a4de99cce11c318fa68541c27e48d8c"
 
   url "https://github.com/DoAutumn/Calendar/releases/download/v#{version}/Calendar.app.zip"
   name "Calendar"
