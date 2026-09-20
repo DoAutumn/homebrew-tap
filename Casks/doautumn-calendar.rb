@@ -1,6 +1,6 @@
 cask "doautumn-calendar" do
-  version "1.0.3"
-  sha256 "1843cb7c5d6c65c839ae238b3360eba46caee04d3fca3f16660fa98249f606f2"
+  version "1.0.4"
+  sha256 "7ec9c990fca834fcf31cb6c261cb318e019e01237c136891dd2fb037adbdbf9d"
 
   url "https://github.com/DoAutumn/Calendar/releases/download/v#{version}/Calendar.app.zip"
   name "Calendar"
@@ -16,9 +16,10 @@ cask "doautumn-calendar" do
 
   app "Calendar.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Calendar.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/Calendar.app"],
+        must_succeed: false
   end
 
   uninstall quit: "io.github.calendar"
