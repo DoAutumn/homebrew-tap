@@ -1,6 +1,6 @@
 cask "prompt-qy" do
-  version "0.1.18"
-  sha256 "faec0885da75cfd68a915a96530ff89500ce5d9e9a5244f71173d5ea43e3c649"
+  version "0.1.19"
+  sha256 "05bf12599281d58481c3c1ad89f0b7e4b65e1cc210ff37d99e890f4773f37dce"
 
   url "https://github.com/DoAutumn/prompt-qy/releases/download/v#{version}/PromptQy.app.zip"
   name "PromptQy"
@@ -20,9 +20,9 @@ cask "prompt-qy" do
   # Gatekeeper refuse the first launch ("damaged, move to Trash"). Strip it here
   # rather than making every user remember `--no-quarantine` on install *and*
   # upgrade. Only possible in a third-party tap; homebrew-cask forbids this.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/PromptQy.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/PromptQy.app"]
   end
 
   uninstall quit: "io.github.promptqy"
