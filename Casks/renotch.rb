@@ -12,7 +12,7 @@ cask "renotch" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Re:notch.app"
 
@@ -20,9 +20,9 @@ cask "renotch" do
   # Gatekeeper refuse the first launch ("damaged, move to Trash"). Strip it here
   # rather than making every user remember `--no-quarantine` on install *and*
   # upgrade. Only possible in a third-party tap; homebrew-cask forbids this.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Re:notch.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/Re:notch.app"]
   end
 
   uninstall quit: "com.doautumn.renotch"
