@@ -1,6 +1,6 @@
 cask "musicplayer" do
-  version "1.0.2"
-  sha256 "583f542b48aa82e37fe3cb32b5234450a566c0af5d4d11c61d6601e81a805f28"
+  version "1.0.3"
+  sha256 "6421be7299358969bd90f62ee619d5631642680f5f677c1b4a366c0307ab67ef"
 
   url "https://github.com/DoAutumn/MusicPlayer/releases/download/v#{version}/MusicPlayer-#{version}.zip"
   name "MusicPlayer"
