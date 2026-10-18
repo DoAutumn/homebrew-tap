@@ -7,6 +7,7 @@ Personal Homebrew tap.
 | Cask | Description |
 |---|---|
 | [`notchterm`](Casks/notchterm.rb) | Long-running iTerm tasks in the Mac notch (git, package builds, Cursor Agent) |
+| [`musicplayer`](Casks/musicplayer.rb) | Local music player for a folder of songs |
 | [`prompt-qy`](Casks/prompt-qy.rb) | Menu-bar composer that feeds text, paths and screenshots to Claude Code |
 | [`autoclaude`](Casks/autoclaude.rb) | Menu-bar scheduler that sends a daily message to Claude Code in Terminal |
 | [`stock-watcher`](Casks/stock-watcher.rb) | Menu-bar always-on-top watchlist widget for A-share stock quotes |
