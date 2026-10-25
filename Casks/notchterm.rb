@@ -1,10 +1,10 @@
 cask "notchterm" do
-  version "2.2.0"
-  sha256 "6debfbdad38891a51038ce299e1ddce404a66ae23a578f5b3478456306085b7a"
+  version "2.3.0"
+  sha256 "5d78f16467ff04241dc899655f46906d5435e9f26ecfeb57d8bb12a125814d8f"
 
   url "https://github.com/DoAutumn/NotchTerm/releases/download/v#{version}/NotchTerm-#{version}.zip"
   name "NotchTerm"
-  desc "Long-running iTerm tasks in the Mac notch — git, package builds, Cursor Agent"
+  desc "Cursor Agent and long git/npm tasks in the Mac notch — hook-driven, no process scans"
   homepage "https://github.com/DoAutumn/NotchTerm"
 
   livecheck do
