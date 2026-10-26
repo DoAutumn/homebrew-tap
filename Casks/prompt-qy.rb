@@ -1,6 +1,6 @@
 cask "prompt-qy" do
-  version "0.1.26"
-  sha256 "044fde6101d480f7beca414bae01a8fc1730e8049f9203b4c427ab0a1fdd18d0"
+  version "0.1.27"
+  sha256 "7bca33f6379f13e151d23963403b640ddf576a71c1340841e2b968785cd77a2e"
 
   url "https://github.com/DoAutumn/prompt-qy/releases/download/v#{version}/PromptQy.app.zip"
   name "PromptQy"
