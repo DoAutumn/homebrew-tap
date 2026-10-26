@@ -1,6 +1,6 @@
 cask "prompt-qy" do
-  version "0.1.27"
-  sha256 "7bca33f6379f13e151d23963403b640ddf576a71c1340841e2b968785cd77a2e"
+  version "0.1.28"
+  sha256 "28059eafe2eb5a8e8de6aa9ce953787f0c7ab09e85decd17ba626b4554245bd8"
 
   url "https://github.com/DoAutumn/prompt-qy/releases/download/v#{version}/PromptQy.app.zip"
   name "PromptQy"
@@ -12,7 +12,7 @@ cask "prompt-qy" do
     strategy :github_latest
   end
 
-  depends_on macos: :big_sur
+  depends_on macos: :ventura
 
   app "PromptQy.app"
 
