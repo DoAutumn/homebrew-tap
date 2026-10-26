@@ -1,6 +1,6 @@
 cask "notchterm" do
-  version "2.3.0"
-  sha256 "5d78f16467ff04241dc899655f46906d5435e9f26ecfeb57d8bb12a125814d8f"
+  version "2.3.1"
+  sha256 "4464e4be7e05fed9fe14139f0401f5c43b06096c8ff69bdb3000ec60feb32343"
 
   url "https://github.com/DoAutumn/NotchTerm/releases/download/v#{version}/NotchTerm-#{version}.zip"
   name "NotchTerm"
