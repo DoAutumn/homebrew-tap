@@ -1,6 +1,6 @@
 cask "notchterm" do
-  version "2.3.2"
-  sha256 "62e0b36a2fd013a49f9533633ecc923141596a5d63f2d3ed2e9abdf183922c2b"
+  version "2.3.3"
+  sha256 "3c690f426c720e1f197f70cf8afb4c8ad15ec03b1f3080a67fbb63ec02ff2fb7"
 
   url "https://github.com/DoAutumn/NotchTerm/releases/download/v#{version}/NotchTerm-#{version}.zip"
   name "NotchTerm"
@@ -17,10 +17,6 @@ cask "notchterm" do
 
   app "NotchTerm.app"
 
-  # The app is not Apple-notarized, so Homebrew's quarantine flag would make
-  # Gatekeeper refuse the first launch ("damaged, move to Trash"). Strip it here
-  # rather than making every user remember `--no-quarantine` on install *and*
-  # upgrade. Only possible in a third-party tap; homebrew-cask forbids this.
   postflight_steps do
     run "/usr/bin/xattr",
         args: ["-dr", "com.apple.quarantine", "{{appdir}}/NotchTerm.app"]
