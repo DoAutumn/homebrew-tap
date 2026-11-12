@@ -1,10 +1,10 @@
 cask "notchterm" do
-  version "2.3.3"
-  sha256 "3c690f426c720e1f197f70cf8afb4c8ad15ec03b1f3080a67fbb63ec02ff2fb7"
+  version "2.4.0"
+  sha256 "2086623d6a74eea99beae74da5b5d8c5a2f055b77e2f034b4743a613086f33a7"
 
   url "https://github.com/DoAutumn/NotchTerm/releases/download/v#{version}/NotchTerm-#{version}.zip"
   name "NotchTerm"
-  desc "Cursor Agent and long git/npm tasks in the Mac notch — hook-driven, no process scans"
+  desc "Cursor Agent, Claude Code, and long git/npm tasks in the Mac notch — hook-driven, no process scans"
   homepage "https://github.com/DoAutumn/NotchTerm"
 
   livecheck do
